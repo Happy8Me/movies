@@ -1,0 +1,12 @@
+
+Add Search functionality to this page
+- use moviedb api for movie data, key is 0adbb34bf81e230a73e19aaaeee72637 
+    (httpswww.themoviedb.orgdocumentationapilanguage=en-US) ;
+- list should be updated on the go (while user is typing), shortest search string is 3 characters;
+- if search result is empty you need to show proper message, for example Nothing to show”;
+- you should visually reflect loading process, for example show loading…” message or some loader gif
+
+Important 
+- no redundant requests, use debounce or cancelation where appropriate. 
+- use caching for previous requests
+- no frameworks. Native (Vanilla) Javascript only.

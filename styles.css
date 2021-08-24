@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container header {
+    background-color: #222;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .container header input {
+    flex: 1;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3px 10px;
+    color: #fff;
+    font-size: 1.5em
+  }
+  
+  .container header + ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container header + ul li {
+    flex: 0.33
+  }
+  
+  .container header + ul li .overview {
+    padding: 40px;
+  }
+  #loading {
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
+    display: none;
+  }
